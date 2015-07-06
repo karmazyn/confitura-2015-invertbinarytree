@@ -1,4 +1,11 @@
 # [Confitura 2015](http://tech.viacom.com/warsawsdc/confitura2015/)
+## Build
+``` ./gradlew clean build ```
+
+## Complexity
+running time: O(n) - each element is read once, n-1 assignments.
+
+memory: O(1) - inversion done in place
 ## Invert a Binary Tree
 
 Invert a binary tree.
